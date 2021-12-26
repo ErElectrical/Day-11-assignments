@@ -1,0 +1,41 @@
+file=[
+    {
+        "item": "rice",
+        "weight": 50,
+        "priceperkg": 120
+    },
+    {
+        "item": "wheat",
+        "weight": 120,
+        "priceperkg": 60
+    },
+    {
+        "item": "pulses",
+        "weight": 140,
+        "priceperkg": 150
+    }
+]
+// json stands for java script object notation.
+//it is the most common way to exchange and transpoting  the data.
+//it is easy and also humanreadable .
+// it is also very easy to parse and genrate.
+// it is programming language independent.
+// mainly the entry in it is like dictionaries which is key value pair.
+// json supports two types of data structure 
+// 1---- object is a set of name ,value.
+// json supports seven data type for values ----string, number, object, array, true, false, and null.
+
+// 2------ array- list of values.
+
+
+// serialization ---------------------
+//serialization is the saving of structure or state of object or data.
+//the target you save may be in your local or remote server ,in your desktop,on some protocol etc.
+// we use serializeobject method with json convert class to do serialization.
+
+//deserialization ---------------------------
+
+//Deserialization is the reverse of that process, taking data structured from some format, 
+// rebuilding it into an object. Today, the most popular data format for serializing data is JSON.
+//    Before that, it was XML.
+//here we use deserialization object  genric for json convertclass to do serialization.
